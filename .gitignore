@@ -1,0 +1,71 @@
+# Файлы конфигурации IDE (IntelliJ IDEA)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Папка с скомпилированными файлами
+/target/
+/bin/
+
+# Файлы журналов
+*.log
+
+# Файлы, созданные операционной системой
+.DS_Store
+Thumbs.db
+
+# Файлы и папки Maven
+/log/
+!src/main/resources/
+!src/test/resources/
+!/.mvn/wrapper/maven-wrapper.jar
+!/.mvn/wrapper/maven-wrapper.properties
+!/.mvn/wrapper/MavenWrapperDownloader.java
+
+# Файлы настроек редактора
+*.swp
+*.swo
+
+# Файлы и директории, созданные пользователем
+*.jar
+*.war
+*.ear
+*.nar
+*.rar
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar
+*.tgz
+*.bz2
+*.gz
+
+# Виртуальные машины
+*.vmdk
+*.vmem
+*.vmsn
+*.vmx
+*.vmxf
+*.vdi
+*.vhd
+*.vhdx
+*.vbox
+*.ovf
+*.ova
+
+# Файлы настроек различных инструментов
+*.local
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Другие файлы и директории
+node_modules/
+npm-debug.log
+junit.xml
+pmd.xml
+checkstyle.xml
+findbugs.xml
+coverage/
